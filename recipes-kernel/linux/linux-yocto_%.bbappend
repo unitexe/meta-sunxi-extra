@@ -1,3 +1,1 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
-
-SRC_URI:append = " file://defconfig"
+KBUILD_DEFCONFIG:olinuxino-a20-emmc = "defconfig"
